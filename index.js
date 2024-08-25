@@ -33,7 +33,7 @@ program
     if (err) {
       console.log("Error reading file", err);
     } else if (data) {
-      console.log("imhere");
+      console.log("imherex");
       console.log(data);
 
       const convertToJSON = JSON.parse(data);
